@@ -106,6 +106,14 @@ const page = () => {
         <button type="submit" className="mt-8 w-40 h-12 bg-black text-white">
           ADD
         </button>
+        <button
+  type="button"
+  onClick={() => router.push("/")}
+  className="mt-4 w-40 h-12 bg-gray-700 text-white"
+>
+  Home
+</button>
+
       </form>
     </>
   );
